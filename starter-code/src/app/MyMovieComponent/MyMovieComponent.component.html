@@ -1,3 +1,29 @@
-<p>
-  MyMovieComponent works!
-</p>
+<h1>
+  Room: {{movie.room}} / {{movie.title}} ({{movie.year}})</h1>
+  <p>Director: {{movie.director}}</p>
+<img [src]="movie.poster" class="poster">
+
+<p>{{movie.synopsis}}</p>
+
+<p>Genres:</p>
+<ul *ngFor="let genre of movie.genres">
+  <li>
+    {{genre}}
+  </li>
+</ul>
+<br>
+<p>Actors: </p>
+<ul *ngFor="let actor of movie.actors">
+  <li>
+    {{actor}}
+  </li>
+</ul>
+<br>
+<p>Hours:</p>
+<ul *ngFor="let hour of movie.hours">
+  <li>
+    {{hour}}
+  </li>
+</ul>
+
+<a [routerLink]="['/home']">HOME </a>

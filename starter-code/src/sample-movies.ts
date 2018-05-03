@@ -17,7 +17,7 @@ export const Movies = [
       "Gil Bellows"
     ],
     hours: ["12:00", "15:00", "17:00", "20:00"], 
-    room: 5
+    room: 1
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ export const Movies = [
       "Sterling Hayden"
     ],
     hours: ["12:00", "15:00", "17:00", "20:00"], 
-    room: 8
+    room: 2
   },
   {
     id: 3,
@@ -57,7 +57,7 @@ export const Movies = [
       "Talia Shire"
     ],
     hours: ["12:00", "15:00", "17:00", "20:00"], 
-    room: 10
+    room: 3
   },
   {
     id: 4,
@@ -77,7 +77,7 @@ export const Movies = [
       "Gary Oldman"
     ],
     hours: ["12:00", "15:00", "17:00", "20:00"], 
-    room: 1
+    room: 4
   },
   {
     id: 5,
@@ -97,6 +97,6 @@ export const Movies = [
       "Embeth Davidtz"
     ],
     hours: ["12:00", "15:00", "17:00", "20:00"],   
-    room: 2
+    room: 5
   }
 ];

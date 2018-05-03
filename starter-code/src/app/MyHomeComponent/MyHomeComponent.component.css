@@ -1,0 +1,13 @@
+.poster{
+  width: 120px;
+  height: 240px;
+}
+
+.movies{
+  width: 100%;
+  display: flex; 
+}
+
+.movie{
+  width: 20%
+}

@@ -1,3 +1,14 @@
-<p>
-  MyHomeComponent works!
-</p>
+<h1> ANOTHER IRONHACK CINEMA </h1>
+
+<div class="movies">
+  <div *ngFor="let movie of movies" class="movie">
+    <a>ROOM: {{movie.room}}/ {{movie.title}}</a>
+    <br>
+
+    <img [src]="movie.poster" class="poster">
+    <br>
+    <button (click)="viewDetails(movie.id)"> see detail </button>
+
+    <!-- <a [routerLink] ="['/movie', movie.id]">see movie</a> -->
+  </div>
+</div>

@@ -14,6 +14,7 @@ interface Movie {
   hours: Array<string>;
   room: number;
 }
+
 @Injectable()
 export class MoviesService {
   movies: Array<Movie> = Movies;
@@ -24,6 +25,6 @@ export class MoviesService {
   }
 
   getMovie(id) {
-    return this.movies[id];
+    return this.movies[id-1];
   }
 }
